@@ -1,0 +1,16 @@
+---
+name: rstfmt
+description: A formatter for reStructuredText
+homepage: https://github.com/dzhu/rstfmt/
+licenses:
+  - MIT
+languages:
+  - reStructuredText
+categories:
+  - Formatter
+
+source:
+  id: pkg:pypi/rstfmt@0.0.13
+
+bin:
+  black: pypi:rstfmt
